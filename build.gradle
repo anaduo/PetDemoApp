@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+
+    testImplementation 'com.github.tomakehurst:wiremock-jre8:2.35.0'
+    testImplementation 'org.wiremock:wiremock-standalone:3.0.0-beta-15'
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+    //okhttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.11.0'
+    // testng
+    testImplementation group: 'org.testng', name: 'testng', version: '6.14.3'
+    //jackson
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
+    //lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+
+}
+test {
+    useTestNG() { //Tells Gradle to use TestNG
+        useDefaultListeners = true // Tells TestNG to execute its default reporting structure
+        //    suites 'src/test/resources/suite.xml' //location of our suite.xml
+    }
+}

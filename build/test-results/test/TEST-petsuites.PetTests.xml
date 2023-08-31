@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petsuites.PetTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-08-31T19:48:39" hostname="MBP-de-solvd.lan" time="1.695">
+  <properties/>
+  <testcase name="AddNewPetBadRequestTest" classname="petsuites.PetTests" time="1.065"/>
+  <testcase name="AddNewPetTest" classname="petsuites.PetTests" time="0.168"/>
+  <testcase name="findPetByStatusTest" classname="petsuites.PetTests" time="0.157"/>
+  <testcase name="updatePetTest" classname="petsuites.PetTests" time="0.301"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

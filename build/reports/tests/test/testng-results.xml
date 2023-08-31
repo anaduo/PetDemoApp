@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T19:48:39Z" name="Gradle suite" finished-at="2023-08-31T19:48:41Z" duration-ms="1734">
+    <groups>
+      <group name="CRUD">
+        <method signature="PetTests.AddNewPetTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" name="AddNewPetTest" class="petsuites.PetTests"/>
+        <method signature="PetTests.findPetByStatusTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" name="findPetByStatusTest" class="petsuites.PetTests"/>
+        <method signature="PetTests.updatePetTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" name="updatePetTest" class="petsuites.PetTests"/>
+      </group> <!-- CRUD -->
+      <group name="Bad request">
+        <method signature="PetTests.AddNewPetBadRequestTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" name="AddNewPetBadRequestTest" class="petsuites.PetTests"/>
+      </group> <!-- Bad request -->
+    </groups>
+    <test started-at="2023-08-31T19:48:39Z" name="Gradle test" finished-at="2023-08-31T19:48:41Z" duration-ms="1734">
+      <class name="petsuites.PetTests">
+        <test-method is-config="true" signature="setUpClient()[pri:0, instance:petsuites.PetTests@6b5894c8]" started-at="2023-08-31T19:48:39Z" name="setUpClient" finished-at="2023-08-31T19:48:39Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClient -->
+        <test-method signature="AddNewPetBadRequestTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" started-at="2023-08-31T19:48:39Z" name="AddNewPetBadRequestTest" finished-at="2023-08-31T19:48:41Z" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewPetBadRequestTest -->
+        <test-method signature="AddNewPetTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" started-at="2023-08-31T19:48:41Z" name="AddNewPetTest" finished-at="2023-08-31T19:48:41Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewPetTest -->
+        <test-method signature="findPetByStatusTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" started-at="2023-08-31T19:48:41Z" name="findPetByStatusTest" finished-at="2023-08-31T19:48:41Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetByStatusTest -->
+        <test-method signature="updatePetTest()[pri:0, instance:petsuites.PetTests@6b5894c8]" started-at="2023-08-31T19:48:41Z" name="updatePetTest" finished-at="2023-08-31T19:48:41Z" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetTest -->
+      </class> <!-- petsuites.PetTests -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
